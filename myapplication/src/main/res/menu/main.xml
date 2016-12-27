@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/action_about"
+        android:title="关于"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_clear_cache"
+        android:title="清理缓存"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_search"
+        android:title="搜索  "
+        app:showAsAction="collapseActionView|ifRoom"
+        />
+</menu>
